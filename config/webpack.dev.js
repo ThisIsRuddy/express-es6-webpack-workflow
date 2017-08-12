@@ -4,7 +4,9 @@ const CleanObsoleteChunks = require('webpack-clean-obsolete-chunks');
 const StartServerPlugin = require('start-server-webpack-plugin');
 
 module.exports = {
+    devtool: 'eval',
     entry: [
+        'babel-polyfill',
         'webpack/hot/poll?1000',
         './src/index.js'
     ],

@@ -4,6 +4,7 @@ const UglifyJsWebpackPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
     entry: [
+        'babel-polyfill',
         './src/index.js'
     ],
     target: 'node',
