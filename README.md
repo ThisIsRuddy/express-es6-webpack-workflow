@@ -1,10 +1,10 @@
 # express-es6-webpack-workflow
 Basic Express app in written in ES6. This app is a barebones workflow for developing ES6 syntax express based apps, this is a bare bones app for quick start projects as configuring webpack and babel can take quite some time.
 
-##Installation
+## Installation
 `npm i` - to install all dependencies
 
-##Run Backend App in Dev Mode
+## Run Backend App in Dev Mode
 `npm run dev`
 
 Features:
@@ -12,9 +12,9 @@ Features:
 - hmr - injects hot updates to make development faster/efficient
 - ss - StartServer to restart the server instance on changes
 
-#####Note: Some hot-update files may get left in `dist/` folder and may need clearing from time to time
+##### Note: Some hot-update files may get left in `dist/` folder and may need clearing from time to time
 
-##Build App for Production
+## Build App for Production
 `npm run build`
 
 Features:
@@ -23,7 +23,7 @@ Features:
 - Minifies code
 - Bundles code with webpack
 
-##Run Production App
+## Run Production App
 `npm run start`
 
 This is just a wrapper for running `node dist/server.bundle.js` <- the built output from running `build`.
