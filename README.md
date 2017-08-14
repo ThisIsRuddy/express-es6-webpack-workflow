@@ -2,7 +2,7 @@
 Basic es6 express server app with webpack configurations for production builds and a development workflow. Based off [fulls1z3/webpack](https://github.com/fulls1z3/webpack) repo to make developing in webpack in es6 easy as well as bundling without presets. 
 
 ## Requirements
-node v8.3.0+
+- node v8.3.0+
 
 ## Installation
 `npm i` - to install all dependencies
